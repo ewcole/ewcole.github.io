@@ -1,0 +1,22 @@
+/** Flashcards.css */
+
+.flashcard {
+    border: 1px solid brown;
+    background-color: beige;
+    box-shadow: 3px 3px 8px 1px black;
+    padding: 2em;
+    margin:2em;
+    width: 20em;
+}
+
+.flashcard .question {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.flashcard .question div {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline;
+    padding: 10px;
+}
