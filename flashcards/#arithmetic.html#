@@ -18,9 +18,18 @@
             <div class="operator">+</div>
             <div class="opeand_2">1</div>
           </div>
-          <div class="answer">
-            <input type="text" name="answer"/>
-            <input type="submit" name="submit"/>
+          <div class="answerForm">
+            <form action="#" name="answer-form">
+              <input type="text" name="answer"/>
+              <input type="submit" name="submit"/>
+            </form>
+          </div>
+          <div class="rightAnswer">
+            <b>Correct!  The answer is <span class="answer"/>2</b>
+          </div>
+          <div class="wrongAnswer">
+            <b>Wrong!</b>  You answered "<span class="wrong-answer">3</span>,"
+            but the correct answer is <span class="answer">2</span>.
           </div>
         </div>
       </div>

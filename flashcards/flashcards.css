@@ -14,6 +14,26 @@
     margin: 0 0 20px;
 }
 
+.answer,.wrong-answer {
+    font-weight: bold;
+}
+
+.rightAnswer {
+    border: 3px solid green;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;;
+    background-color: #cfc;
+}
+
+.wrongAnswer {
+    border: 3px solid red;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;;
+    background-color: #fcc;
+}
+
 .flashcard .question div {
     font-size: 35px;
     font-weight: bold;
