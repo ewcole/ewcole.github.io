@@ -25,7 +25,7 @@
             </form>
           </div>
           <div class="rightAnswer">
-            <b>Correct!  The answer is <span class="answer"/>2</b>
+            <b>Correct!  The answer is <span class="answer"/></b>
           </div>
           <div class="wrongAnswer">
             <b>Wrong!</b>  You answered "<span class="wrong-answer">3</span>,"

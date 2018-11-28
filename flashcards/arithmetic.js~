@@ -1,0 +1,4 @@
+$(function () {
+    var templates = $('#templates');
+    console.log(templates);
+});
