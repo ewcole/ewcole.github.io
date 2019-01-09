@@ -40,3 +40,8 @@
     display: inline;
     padding: 10px;
 }
+
+.flashcard .question input {
+    font-size: 35px;
+    width: 3em;
+}
