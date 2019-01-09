@@ -34,4 +34,4 @@ var showCard = function (op1, op2, operator, answer) {
 };
 
 
-showCard(10,12, '-', 22);
+showCard(12,10, '-', 22);
