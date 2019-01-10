@@ -45,3 +45,18 @@
     font-size: 35px;
     width: 3em;
 }
+
+#next-card-form input {
+    border: 3px outset sienna;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: ;
+    margin: 7px 0em;
+    background-color: #420;
+    color: beige;
+}
+#next-card-form input:active {
+    border: 3px inset sienna;
+}
