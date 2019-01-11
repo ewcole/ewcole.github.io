@@ -75,8 +75,17 @@ var showCard = function (op1, op2, operator, answer) {
        })*/;
 };
 
+var maxSize = 20;
+var getRandomNumber = function () {
+    return Math.floor(Math.random() * maxSize);
+};
+
 nextCard = function () {
-
+    var op1 = getRandomNumber();
+    var op2 = getRandomNumber();
+    operator = '+';
+    answer = op1 + op2;
+    showCard(op1, op2, operator, answer);
 }
-showCard(12,10, '-', 2);
 
+nextCard();
